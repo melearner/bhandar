@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     
-    <title>Welcome</title>
+    <title id="title">Welcome</title>
     <link rel="stylesheet" href="style.css">
+    <script src="data.js"></script>
+    
 </head>
 <body>
-    <div id="img">
-    <p id="message">
-        Lets's Code
-    </p>
-</div>
+    <img id="img"></img>
+<p id="message">
+    Lets's Code
+</p>
    
    <script src="app.js">
    </script>
+   <script>
+
+var img = document.getElementById("img");
+    img.src = data.img;
+
+
+    var title = document.getElementById("message");
+    title.innerHTML = data.title;
+
+</script>
 </body>
 </html>
