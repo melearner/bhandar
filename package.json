@@ -1,0 +1,18 @@
+{
+  "name": "htmlandnode",
+  "version": "1.0.0",
+  "description": "html and node simple api",
+  "main": "index.js",
+  "scripts": {
+    "devstart": "nodemon index.js"
+  },
+  "author": "Siddhartha Vyas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
